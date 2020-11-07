@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="modal">
+        <!-- В стилях display.none, удалите, чтобы увидеть -->
+        <div class="popap">
+            <div class="popap-head">
+                <div class="close">X</div>
+            </div>
+            <div class="popap-main">
+                <form class="popap-form">
+                    <label>
+                        <span>First Name</span>
+                        <input type="text" name="first-name" class='firstName'>
+                    </label>
+                    <label>
+                        <span>Last Name</span>
+                        <input type="text" name="last-name" class='lastName'>
+                    </label>
+                    <label>
+                        <span>Age</span>
+                        <input type="text" name="age" class='age'>
+                    </label>
+                </form>
+                <div class="popap-btn">
+                    <div class="btn close">close</div>
+                    <div class="btn ok">ok</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody class="table">
+        
+        </tbody>
+        </table>
+    <div class="btn add-user">add user</div>
+    <div class="btn remove-user">remove user</div>
+    <script type="module" src="./assets/js/script.js"></script>
+</body>
+
+</html>
