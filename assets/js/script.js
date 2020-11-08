@@ -16,27 +16,20 @@ for(let $btn of $close){
 	});
 }
 
-
-
 const table = tableControl();
 
 table.toggle('draw');
 
 let $ok = document.querySelector('.ok');
 
-let $table = document.querySelector(".table")
-
 let $removeUser = document.querySelector(".remove-user")
 
 $ok.addEventListener('click', function() {
-	
 	table.toggle('addRow');
 	modal.toggle('close');
 })
 
 
 $removeUser.addEventListener('click', function(){
-
 	table.toggle('deleteRow');
-	
 })
